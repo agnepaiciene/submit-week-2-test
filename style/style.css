@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+  margin: 0 auto;
+  padding: 0 auto;
+  max-width: 1200px;
+  display: flex;  
+}
+
+.card{
+    width: 100%;
+    margin: 50px 20px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    padding: 20px 10px;
+    position: relative;
+   
+    
+}
+
+.card h1{
+    width: 60px;
+border: 2px solid rgb(134, 189, 194);
+background-color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 16px;
+text-align: center;
+padding: 10px 10px;
+color:rgb(134, 189, 194);
+border-radius: 50%;
+position: absolute;
+z-index: 1;
+top: -2px;
+left:0px;
+}
+
+.card img{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(134, 189, 194); 
+    border-radius: 5%;
+}
+
+.card h2{
+    color: rgb(179, 99, 99);
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.card p{
+    color: rgb(56, 53, 53);
+    background-color: white;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.card .card-img2{
+    background-color: rgb(109, 109, 172);
+}
+.card .card-img3{
+    background-color: rgba(218, 100, 82, 0.913);
+}
+.card .card-img4{
+    background-color: rgb(141, 141, 152);
+}
+
+.card .number2{
+    color:rgb(109, 109, 172);
+    border-color: rgb(109, 109, 172);
+  
+}
+.card .number3{
+    color:rgb(179, 99, 99);
+    border-color: rgb(179, 99, 99);
+}
+.card .number4{
+    color:rgb(141, 141, 152);
+  
+border-color:  rgb(141, 141, 152);;
+}
+
+
